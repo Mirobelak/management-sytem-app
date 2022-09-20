@@ -1,5 +1,5 @@
 import {FaTrash} from "react-icons/fa"
-import { DELETE_CLIENT } from "./mutations/ClientMutations"
+import { DELETE_CLIENT } from "../mutations/ClientMutations"
 import { useMutation } from "@apollo/client"
 import {GET_CLIENTS} from "../queries/ClientQueries"
 import { GET_PROJECTS } from "../queries/ProjectQueries"

@@ -1,7 +1,7 @@
 import { useState } from "react"
 import {FaUser} from "react-icons/fa"
 import { useMutation} from "@apollo/client"
-import { ADD_CLIENT } from "./mutations/ClientMutations"
+import { ADD_CLIENT } from "../mutations/ClientMutations"
 import {GET_CLIENTS} from "../queries/ClientQueries"
 
 

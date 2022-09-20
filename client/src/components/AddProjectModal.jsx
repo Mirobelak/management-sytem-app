@@ -1,7 +1,7 @@
 import { useState } from "react"
 import {FaList} from "react-icons/fa"
 import { useMutation, useQuery } from "@apollo/client"
-import { ADD_PROJECT } from "./mutations/ProjectMutations"
+import { ADD_PROJECT } from "../mutations/ProjectMutations"
 import {GET_PROJECTS} from "../queries/ProjectQueries"
 import {GET_CLIENTS} from "../queries/ClientQueries"
 

@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { useMutation } from "@apollo/client"
 import { GET_PROJECT } from "../queries/ProjectQueries"
-import { UPDATE_PROJECT } from "./mutations/ProjectMutations"
+import { UPDATE_PROJECT } from "../mutations/ProjectMutations"
 
 const EditProjectForm = ({project}) => {
 
